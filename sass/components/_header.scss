@@ -1,0 +1,35 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__item:nth-child(2) {
+        border: 2px solid #fff;
+        border-radius: 20px;
+    }
+
+    &__link {
+        color: #FFF;
+        text-align: center;
+        font-size: 14;
+        font-weight: 700;
+        display: block;
+        padding: 11px 4px;
+        margin-right: 4px;
+    }
+
+    &__logo {
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;     
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+button, img {
+    display: block;
+}
+
+ul, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
