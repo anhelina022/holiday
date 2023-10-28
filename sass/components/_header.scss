@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     &__item:nth-child(2) {
         border: 2px solid #fff;
         border-radius: 20px;
@@ -32,4 +33,23 @@
         letter-spacing: 1px;
         text-transform: uppercase;
     }
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 19px;
+    gap: 112px;
+
+    @media screen and ( min-width:768px) {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 36px 50px 0 ;
+    }
+
+    @media screen and (min-width:1200px){
+        width: 940px;
+    }
+
+
 }

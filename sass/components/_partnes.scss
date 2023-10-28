@@ -1,0 +1,139 @@
+.partners{
+    padding: 63px 0 57px;
+    @media screen and (min-width:768px){
+        padding: 66px 0 39px;
+    }
+
+    @media screen and (min-width:1200px){
+        padding: 65px 0 62px;
+    }
+    &__title{
+        color: #333;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+
+        @media screen and (min-width:768px){
+            margin-bottom: 35px;
+        }
+    }
+    &__btn{
+        color: #FF4E50;
+        text-align: center;
+        font-size: 14px;
+        width: 280px;
+        height: 40px;
+        font-weight: 700;
+        border: 2px solid#FF4E50;
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 29px auto 0;
+
+        @media screen and (min-width:768px){
+            width: 195px;
+            height: 42px;
+            margin: 38px auto 0;
+        }
+    }
+}
+
+.partners-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    @media screen and (min-width:768px){
+        row-gap: 53px;
+    }
+
+    @media screen and (min-width:1200px){
+        gap: 20px;
+    }
+
+    &__item{
+        width: 247px;
+    }
+    &__container {
+        width: 120px;
+        height: 120px;
+        position: relative;
+        margin: 0 auto;
+    }
+    &__photo{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    &__icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right:0;
+        bottom: 2px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 4px solid #fff;
+
+        &--tv{
+            background-color: #FF4E50;
+        }
+        &--chem{
+            background-color: #FFA507;
+        }
+        &--coffee{
+            background-color: #1CD7AD;
+        }
+        &--telegram{
+            background-color: #4E73DB;
+        }
+    }
+    &__svg{
+        width: 16px;
+        height: 16px;
+        fill: #FFF;
+        &--chem{
+            width: 12px;
+            height: 16px;
+        }
+    }
+    &__name{
+        margin: 13px 0;
+        color: #333;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &-about{
+        color: #666;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+.button {
+    color: #FF4E50;
+    text-align: center;
+    font-family: 'Montrerrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #FFF;
+    border-radius: 20px;
+    border: 2px solid #FF4E50;
+    margin: 0 auto;
+    width: 195px;
+    height: 43px;
+    margin-top: 52px;
+
+    @media screen and (min-width:768px){
+        margin-top: 38px;
+    }
+} 
